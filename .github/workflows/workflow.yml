@@ -157,7 +157,7 @@ jobs:
         ci_node_index: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
         openfisca-dependencies: [minimal, maximal]
     container: 
-      image: ubuntu-24.04
+      image: ubuntu:24.04
       options: --cpus 4 --memory 16G
     steps:
       - name: Checkout
